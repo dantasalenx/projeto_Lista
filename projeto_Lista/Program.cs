@@ -14,32 +14,40 @@ namespace projeto_Lista
             var valor = "";
             do
             {
-                Console.WriteLine("Informe um nome para add na lista: ");
+                Console.WriteLine("Informe um nome para add na lista: \n");
                 valor = Console.ReadLine().TrimEnd().ToUpper();
-                if (valor != "valor") lista.Add(valor);
+                if (valor != "sair".ToUpper() && !lista.Contains(valor))lista.Add(valor);
             } while (valor != "sair".ToUpper());
 
+            foreach (string e in lista) { Console.WriteLine(e); }
+
             int quantidade = lista.Count;
+            bool tem = lista.Contains("ALENX");
 
             listacompleta = lista.ToList();
 
-
-            Console.WriteLine("Informe o nome a ser excluido: ");
+            Console.WriteLine("\nInforme o nome a ser excluido: ");
             lista.Remove(Console.ReadLine().ToUpper());
 
+            Console.Clear();
 
-            foreach(var e in listacompleta){
+            Console.WriteLine("Antes: ");
+            foreach(var e in listacompleta)
+            {
                 Console.WriteLine(e);
             }
 
-            Console.WriteLine("-------------");
+            Console.WriteLine("----------------------");
+
+            Console.WriteLine("Depois: ");
             foreach (var e in lista)
             {
                 Console.WriteLine(e);
             }
 
-            Console.WriteLine("Quantidade inicial: " + quantidade);
-            Console.WriteLine("Quantidade final: " + lista.Count);
+            Console.WriteLine("\nQuantidade inicial: " + quantidade);
+            Console.WriteLine("\nQuantidade final: " + lista.Count);
+            Console.WriteLine("\nTEM: " + tem);
             }
         }
     }

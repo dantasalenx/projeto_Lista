@@ -1,0 +1,11 @@
+/Users/aluno/Projects/projeto_Lista/projeto_Lista/bin/Debug/netcoreapp2.1/projeto_Lista.deps.json
+/Users/aluno/Projects/projeto_Lista/projeto_Lista/bin/Debug/netcoreapp2.1/projeto_Lista.runtimeconfig.json
+/Users/aluno/Projects/projeto_Lista/projeto_Lista/bin/Debug/netcoreapp2.1/projeto_Lista.runtimeconfig.dev.json
+/Users/aluno/Projects/projeto_Lista/projeto_Lista/bin/Debug/netcoreapp2.1/projeto_Lista.dll
+/Users/aluno/Projects/projeto_Lista/projeto_Lista/bin/Debug/netcoreapp2.1/projeto_Lista.pdb
+/Users/aluno/Projects/projeto_Lista/projeto_Lista/obj/Debug/netcoreapp2.1/projeto_Lista.csprojAssemblyReference.cache
+/Users/aluno/Projects/projeto_Lista/projeto_Lista/obj/Debug/netcoreapp2.1/projeto_Lista.csproj.CoreCompileInputs.cache
+/Users/aluno/Projects/projeto_Lista/projeto_Lista/obj/Debug/netcoreapp2.1/projeto_Lista.AssemblyInfoInputs.cache
+/Users/aluno/Projects/projeto_Lista/projeto_Lista/obj/Debug/netcoreapp2.1/projeto_Lista.AssemblyInfo.cs
+/Users/aluno/Projects/projeto_Lista/projeto_Lista/obj/Debug/netcoreapp2.1/projeto_Lista.dll
+/Users/aluno/Projects/projeto_Lista/projeto_Lista/obj/Debug/netcoreapp2.1/projeto_Lista.pdb
